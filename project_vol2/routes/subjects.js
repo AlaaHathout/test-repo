@@ -14,6 +14,8 @@ router.get('/createSubject', async(req, res) => {
     });
     res.send('All is Done');
     print('kkkkkkkk')
+    print('Nnnnnnnnnnnnnnnnn')
+    print('bbbbbbbbbbbbbbbbbb')
 });
 
 router.get('/createDept', async(req, res) => {
