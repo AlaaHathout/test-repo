@@ -13,6 +13,7 @@ router.get('/createSubject', async(req, res) => {
         code: 'C++-CS'
     });
     res.send('All is Done');
+    print('kkkkkkkk')
 });
 
 router.get('/createDept', async(req, res) => {
