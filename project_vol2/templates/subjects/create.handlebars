@@ -1,0 +1,43 @@
+<h1> Create a new subject </h1>
+
+
+<form action='/subjects' method='POST'>
+    <!--Name-->
+    <div>
+        <label form="">Name</label>
+
+        <input type="text" class="form-control" name="name">
+    </div>
+
+    <!--Code-->
+    <div>
+        <label form="">Code</label>
+
+        <input type="text" class="form-control" name="code">
+    </div>
+
+      <!--Department-->
+    <div>
+        <label form="">Department</label>
+
+        <select name="department" id="" class="form-select">
+
+            {{#each departments}}
+                <option value="{{_id}}"> {{ name }} </option>
+            {{/each}}
+            
+        </select>
+    </div>
+
+    <!--Prerequisite-->
+    <div>
+        <label form="">Prerequisite</label>
+
+        <input type="text" class="form-control" name="prerequisite">
+    </div>
+
+    <div class="mt-3">
+        <button class="btn btn-success" type="submit">Save</button>
+    </div>
+
+</form>

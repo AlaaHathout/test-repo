@@ -1,0 +1,14 @@
+<h1>{{singleSubject.name}}</h1>
+
+<div>
+   Code: {{singleSubject.code}}
+</div>
+
+<div>
+  <!-- Department: {{singleSubject.department}}  // without .populate -->
+   Department: {{singleSubject.department.name}}
+</div>
+
+<div>
+   Prerequisite: {{singleSubject.prerequisite}}
+</div>
