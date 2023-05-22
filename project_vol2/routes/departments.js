@@ -21,3 +21,5 @@ router.get('/createDept', async(req, res) => {
 });
 
 export default router;
+
+print('alaaaaa');
